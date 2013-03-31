@@ -61,7 +61,7 @@
             this.rot180Button.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rot180Button.Location = new System.Drawing.Point(97, 3);
             this.rot180Button.Name = "rot180Button";
-            this.rot180Button.Size = new System.Drawing.Size(88, 80);
+            this.rot180Button.Size = new System.Drawing.Size(88, 81);
             this.rot180Button.TabIndex = 1;
             this.rot180Button.UseVisualStyleBackColor = true;
             this.rot180Button.Click += new System.EventHandler(this.rot180Button_Click);
@@ -69,9 +69,9 @@
             // rot90cwButton
             // 
             this.rot90cwButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rot90cwButton.Location = new System.Drawing.Point(3, 89);
+            this.rot90cwButton.Location = new System.Drawing.Point(3, 90);
             this.rot90cwButton.Name = "rot90cwButton";
-            this.rot90cwButton.Size = new System.Drawing.Size(88, 80);
+            this.rot90cwButton.Size = new System.Drawing.Size(88, 81);
             this.rot90cwButton.TabIndex = 3;
             this.rot90cwButton.UseVisualStyleBackColor = true;
             this.rot90cwButton.Click += new System.EventHandler(this.rot90cwButton_Click);
@@ -79,9 +79,9 @@
             // rot90ccwButton
             // 
             this.rot90ccwButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rot90ccwButton.Location = new System.Drawing.Point(191, 89);
+            this.rot90ccwButton.Location = new System.Drawing.Point(191, 90);
             this.rot90ccwButton.Name = "rot90ccwButton";
-            this.rot90ccwButton.Size = new System.Drawing.Size(90, 80);
+            this.rot90ccwButton.Size = new System.Drawing.Size(90, 81);
             this.rot90ccwButton.TabIndex = 5;
             this.rot90ccwButton.UseVisualStyleBackColor = true;
             this.rot90ccwButton.Click += new System.EventHandler(this.rot90ccwButton_Click);
@@ -89,9 +89,9 @@
             // doNothingButton
             // 
             this.doNothingButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.doNothingButton.Location = new System.Drawing.Point(97, 175);
+            this.doNothingButton.Location = new System.Drawing.Point(97, 177);
             this.doNothingButton.Name = "doNothingButton";
-            this.doNothingButton.Size = new System.Drawing.Size(88, 83);
+            this.doNothingButton.Size = new System.Drawing.Size(88, 81);
             this.doNothingButton.TabIndex = 7;
             this.doNothingButton.UseVisualStyleBackColor = true;
             this.doNothingButton.Click += new System.EventHandler(this.doNothingButton_Click);
@@ -109,6 +109,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Deactivate += new System.EventHandler(this.Form1_Deactivate);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
