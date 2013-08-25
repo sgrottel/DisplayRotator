@@ -176,7 +176,7 @@ namespace DisplayRotator {
             DEVMODE dm = new DEVMODE();
             EnumDisplaySettings(null, -1, ref dm);
 
-            if ((((int)dm.dmDisplayOrientation) - ((int)orientation)) % 2 == 1) {
+            if (Math.Abs(((int)dm.dmDisplayOrientation) - ((int)orientation)) % 2 == 1) {
                 int tmp = dm.dmPelsWidth;
                 dm.dmPelsWidth = dm.dmPelsHeight;
                 dm.dmPelsHeight = tmp;

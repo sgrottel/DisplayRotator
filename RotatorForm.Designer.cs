@@ -64,7 +64,7 @@
             this.rot180Button.Size = new System.Drawing.Size(88, 81);
             this.rot180Button.TabIndex = 1;
             this.rot180Button.UseVisualStyleBackColor = true;
-            this.rot180Button.Click += new System.EventHandler(this.rot180Button_Click);
+            this.rot180Button.Click += new System.EventHandler(this.rotButton_Click);
             // 
             // rot90cwButton
             // 
@@ -74,7 +74,7 @@
             this.rot90cwButton.Size = new System.Drawing.Size(88, 81);
             this.rot90cwButton.TabIndex = 3;
             this.rot90cwButton.UseVisualStyleBackColor = true;
-            this.rot90cwButton.Click += new System.EventHandler(this.rot90cwButton_Click);
+            this.rot90cwButton.Click += new System.EventHandler(this.rotButton_Click);
             // 
             // rot90ccwButton
             // 
@@ -84,7 +84,7 @@
             this.rot90ccwButton.Size = new System.Drawing.Size(90, 81);
             this.rot90ccwButton.TabIndex = 5;
             this.rot90ccwButton.UseVisualStyleBackColor = true;
-            this.rot90ccwButton.Click += new System.EventHandler(this.rot90ccwButton_Click);
+            this.rot90ccwButton.Click += new System.EventHandler(this.rotButton_Click);
             // 
             // doNothingButton
             // 
@@ -96,7 +96,7 @@
             this.doNothingButton.UseVisualStyleBackColor = true;
             this.doNothingButton.Click += new System.EventHandler(this.doNothingButton_Click);
             // 
-            // Form1
+            // RotatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -104,12 +104,11 @@
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form1";
+            this.Name = "RotatorForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Deactivate += new System.EventHandler(this.Form1_Deactivate);
-            this.Shown += new System.EventHandler(this.Form1_Shown);
+            this.Deactivate += new System.EventHandler(this.form_Deactivate);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
