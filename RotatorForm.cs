@@ -31,6 +31,14 @@ namespace DisplayRotator {
             this.rot90cwButton.Tag = 3;
 
             // TODO: Button Icons
+            Bitmap bmp = new Bitmap(80, 80, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
+            using (Graphics g = Graphics.FromImage(bmp)) {
+                g.Clear(Color.Red);
+            }
+            this.doNothingButton.Image = bmp;
+            this.rot90ccwButton.Image = bmp;
+            this.rot180Button.Image = bmp;
+            this.rot90cwButton.Image = bmp;
 
         }
 

@@ -53,15 +53,15 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(284, 261);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(298, 298);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // rot180Button
             // 
             this.rot180Button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rot180Button.Location = new System.Drawing.Point(97, 3);
+            this.rot180Button.Location = new System.Drawing.Point(102, 3);
             this.rot180Button.Name = "rot180Button";
-            this.rot180Button.Size = new System.Drawing.Size(88, 81);
+            this.rot180Button.Size = new System.Drawing.Size(93, 93);
             this.rot180Button.TabIndex = 1;
             this.rot180Button.UseVisualStyleBackColor = true;
             this.rot180Button.Click += new System.EventHandler(this.rotButton_Click);
@@ -69,9 +69,9 @@
             // rot90cwButton
             // 
             this.rot90cwButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rot90cwButton.Location = new System.Drawing.Point(3, 90);
+            this.rot90cwButton.Location = new System.Drawing.Point(3, 102);
             this.rot90cwButton.Name = "rot90cwButton";
-            this.rot90cwButton.Size = new System.Drawing.Size(88, 81);
+            this.rot90cwButton.Size = new System.Drawing.Size(93, 93);
             this.rot90cwButton.TabIndex = 3;
             this.rot90cwButton.UseVisualStyleBackColor = true;
             this.rot90cwButton.Click += new System.EventHandler(this.rotButton_Click);
@@ -79,9 +79,9 @@
             // rot90ccwButton
             // 
             this.rot90ccwButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rot90ccwButton.Location = new System.Drawing.Point(191, 90);
+            this.rot90ccwButton.Location = new System.Drawing.Point(201, 102);
             this.rot90ccwButton.Name = "rot90ccwButton";
-            this.rot90ccwButton.Size = new System.Drawing.Size(90, 81);
+            this.rot90ccwButton.Size = new System.Drawing.Size(94, 93);
             this.rot90ccwButton.TabIndex = 5;
             this.rot90ccwButton.UseVisualStyleBackColor = true;
             this.rot90ccwButton.Click += new System.EventHandler(this.rotButton_Click);
@@ -89,9 +89,9 @@
             // doNothingButton
             // 
             this.doNothingButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.doNothingButton.Location = new System.Drawing.Point(97, 177);
+            this.doNothingButton.Location = new System.Drawing.Point(102, 201);
             this.doNothingButton.Name = "doNothingButton";
-            this.doNothingButton.Size = new System.Drawing.Size(88, 81);
+            this.doNothingButton.Size = new System.Drawing.Size(93, 94);
             this.doNothingButton.TabIndex = 7;
             this.doNothingButton.UseVisualStyleBackColor = true;
             this.doNothingButton.Click += new System.EventHandler(this.doNothingButton_Click);
@@ -100,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(298, 298);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
