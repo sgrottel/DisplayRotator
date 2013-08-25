@@ -59,14 +59,12 @@ namespace DisplayRotator {
         /// <param name="e">not used</param>
         private void rotButton_Click(object sender, EventArgs e) {
             int relRot = (int)((Button)sender).Tag;
-
             DisplayOrientation ori = PInvoke.GetCurrentDisplayRotation();
-
-            // Because I know (not very nice)
-            ori = (DisplayOrientation)(((int)ori + relRot) % 4);
-
+            ori = ori.Rotate(relRot);
             PInvoke.SetDisplayRotation(ori);
             this.Close();
         }
+
     }
+
 }
