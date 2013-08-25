@@ -14,9 +14,9 @@ namespace DisplayRotator {
     /// <summary>
     /// The application main form
     /// </summary>
-    public partial class Form1 : Form {
+    public partial class RotatorForm : Form {
 
-        public Form1() {
+        public RotatorForm() {
             InitializeComponent();
             this.Top = Screen.PrimaryScreen.WorkingArea.Bottom - this.Height;
             this.ActiveControl = this.doNothingButton;

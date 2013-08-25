@@ -1,6 +1,6 @@
 ﻿namespace DisplayRotator
 {
-    partial class Form1
+    partial class RotatorForm
     {
         /// <summary>
         /// Required designer variable.
