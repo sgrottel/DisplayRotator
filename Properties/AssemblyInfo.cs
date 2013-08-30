@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DisplayRotator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Simple Desktop Application to rotate the screen on Convertibles with sensores not supported by windows 8")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("SGrottel")]
 [assembly: AssemblyProduct("DisplayRotator")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyCopyright("Copyright © SGrottel 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
